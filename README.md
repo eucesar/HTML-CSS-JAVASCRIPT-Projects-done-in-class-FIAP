@@ -5,7 +5,7 @@
   <img align="center" alt="Cesar-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
 </p>
 
-> 🌱📚 - During the "WEB STANDARDS AND GAME DEVELOPING" classes, I developed projects for study, I will share all these projects in this repertoire during the bachelor. I carried out these projects at FIAP.
+> 🌱👨‍💻 - During the "WEB STANDARDS AND GAME DEVELOPING" classes, I developed projects for study, I will share all these projects in this repertoire during the bachelor. I carried out these projects at FIAP.
 
 
 ## Download
