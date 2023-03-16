@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(248, 194, 194);
+}
+
+.titulo{
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+
+.paragrafo{
+    font-size: 14px;
+    text-align: justify;
+    padding:15px 15px 15px 20px;
+
+}
+
+.imagem-do-drone1{
+    width: 50%;
+    height: 500px;
+    margin: 33px 55px 55px 55px;
+
+}
+
+.imagem-do-drone2{
+    width: 1000%;
+    height: 100%;
+}
+
+.imagem-do-drone3{
+    width: 50%;
+    height: 50%;
+    margin: 100px 100px 100px 550px;
+}
+/*
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((-------- 𝒞𝑒𝓈𝒶𝓇 ℐ𝑔𝓁𝑒𝓈𝒾𝒶𝓈  */
+
+/**/
