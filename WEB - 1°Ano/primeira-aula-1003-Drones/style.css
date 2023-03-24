@@ -1,0 +1,20 @@
+@import url("./css/main.css");
+@import url("./css/footer.css");
+@import url("./css/header.css");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+:root {
+    --cor-de-fundo:rgb(248, 194, 194);
+}
+
+body{
+  background-color: var(--cor-de-fundo);
+  font-family: 'EB Garamond', serif;
+}
+
+/*
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((-------- 𝒞𝑒𝓈𝒶𝓇 ℐ𝑔𝓁𝑒𝓈𝒾𝒶𝓈  */
+
+/**/

@@ -1,0 +1,55 @@
+.container {
+    width: 200px;
+    /*minimo da alutura - para n passar o conteudo*/
+    min-height: 150px; 
+
+    /*border-top: 10px solid #900;*/ /*borda apenas no topo*/
+    border: 10px solid #369;
+    box-sizing: border-box;
+
+
+    margin: 20px; /*margim fora - tds os lados*/
+    /*margin-button:20px - margin em baixo*/
+
+      /*espaçamento interno*/
+    padding: 20px;
+
+    text-align: center;
+}
+
+.bg-blue{
+    background-color: blue
+}
+
+.bg-red{
+    background-color:#900
+}
+    
+.bg-orange{
+    background-color: #f60;
+}
+
+.container-text{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-link{
+    color: #fff;
+    /*transformar em texto-minusculo*/
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*transformar em maisculo*/
+    text-transform: uppercase;
+    /*borda com link*/
+    border: 2px solid #fff;
+    padding: 7px;
+    background-color: black;
+}
+
+/*trocar a cor quando clico */
+.container-link:hover{
+    color: black;
+    background-color: white;
+    align-items: center;;
+}
