@@ -1,0 +1,26 @@
+main{
+    margin: 80px;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.valor-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 400px 30px 450px;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}

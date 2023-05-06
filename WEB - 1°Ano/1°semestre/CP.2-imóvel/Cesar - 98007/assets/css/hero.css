@@ -1,0 +1,102 @@
+/*personalização - efeitos e etc.*/
+
+main{
+    border: 3px solid;
+    border-radius: 20px;
+    background-color: var(--branco);
+    transition: .5s;
+}
+
+main:hover{
+    border: 4px solid var(--salmao);
+    transition: .5s; 
+}
+
+.titulo{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--salmao);
+}
+
+.paragrafo1{
+    font-size: 18px;
+}
+
+.icons1 {
+    margin-right: 3px;
+}
+
+.icons2{
+    margin: 0 7px 0 5px;
+}
+
+.segunda-div p{
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.icones{
+    margin: 20px 55px 20px 0;
+    font-size: 40px;
+}
+
+.icones1{
+    margin: 20px 70px 20px 0;
+    font-size: 40px;
+}
+
+.titulo1{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.paragrafo2{
+    margin: 10px 0 10px 10px;
+    font-size: 30px;
+}
+.valor-container{
+    transition: .5s;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: var(--cor-de-fundo);
+}
+
+.valor-container:hover{
+    transform: scale(1.1);
+    transform-origin: right;
+    transition: .5s;
+    color: var(--branco);
+    background-color: var(--salmao);
+}
+
+.btn{
+    border: 2px solid var(--cor-de-fundo);
+    padding: 5px 30px;
+    background-color: var(--cor-de-fundo);
+    border-radius: 70px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .7s;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.btn:hover {
+    background-color: var(--preto);
+    border: 2px solid var(--salmao);
+    color: var(--branco);
+}
+
+.hover{
+    transition: .2s;
+}
+.hover:hover{
+    transform: scale(2.0);
+    transition: .2;
+}

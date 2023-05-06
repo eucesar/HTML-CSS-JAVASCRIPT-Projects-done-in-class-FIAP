@@ -1,0 +1,25 @@
+/*1920 x 1080*/
+
+@import url("./main.css");
+@import url("./hero.css");
+@import url("./imgs.css");
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@1,600&display=swap');
+
+:root {
+    --cor-de-fundo: #c4c4c4;
+    --salmao: #d65d61 ;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((-------- 𝒞𝑒𝓈𝒶𝓇 ℐ𝑔𝓁𝑒𝓈𝒾𝒶𝓈  */
