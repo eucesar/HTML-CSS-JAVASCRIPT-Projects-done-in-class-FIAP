@@ -1,0 +1,19 @@
+.btn:hover .icons { /*quando o mouse passa em cima do btn - e acessa  icone*/
+    animation: reservar .5s infinite; /*fazer a animação infinitamente - 5 milisegundos*/
+
+}
+
+@keyframes reservar {
+    50% {
+        transform: translateX(7px); /*começa a animação indo para a direita*/
+    }
+    
+    70%{
+        
+        transform: translateY(7px); /*desce 7px*/
+    }
+    
+    100% {
+        transform: translateX(-7px); /*final da animação - sobre -7px*/
+    }
+}
