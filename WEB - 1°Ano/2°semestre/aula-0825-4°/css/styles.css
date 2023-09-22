@@ -1,0 +1,39 @@
+:root {
+    --color-blue: #336699;
+    --color-pink: #DC143C;    
+    --font: 'Lato', sans-serif;
+    
+}
+
+body {
+    font-family: var(--font);
+}
+
+.text-blue {
+    color: var(--color-blue);
+}
+.text-pink {
+    color: var(--color-pink);
+    font-weight: 900;
+}
+
+.logo-menu {
+    font-size: 1.6875rem;
+    color: var(--color-blue);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.nav-link:hover, .logo-menu:hover {
+    color: var(--color-blue);
+}
+
+/* .margin-menu {
+    margin: 80px 0;
+} */

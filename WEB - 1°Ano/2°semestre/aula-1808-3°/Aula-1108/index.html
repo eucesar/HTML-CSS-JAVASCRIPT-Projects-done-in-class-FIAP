@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aula 03 - Menu e Tabela</title>
+
+    <!-- link na aba - img na abazinha do lado dotitle-->
+    <link rel="shortcut icon" href="./images/robot.svg" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+    <!-- BS Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <!-- chamada CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Minha CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+ 
+</head>
+
+<body>
+    <header class="container mt-4 margin-menu">
+        <nav class="navbar navbar-expand-lg "> <!--navbar-expand-lg - 3 barrinhas - cor background: bg-body-tertiary - fixed-top: vai abaixar e deixar td ixo-->
+            <div class="container-fluid">
+                <a class="navbar-brand logo-menu" href="#">
+                    <i class="bi bi-robot me-1"></i>Robocup
+                </a>
+
+                <!-- botão quando estou no celular - uso o span para isso, o icone - uso o buton na clas dele para ter a sombra -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="bi bi-text-right"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"> <!-- o bt q vai calular as distancia maxima possivel-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O Evento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Confronto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Robos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="row p-5 my-4 d-flex align-items-center"> <!--border rounded-->
+            <div class="col-md-6">
+                <h1 class="text-blue">1SIA</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque
+                    <span class="text-pink">
+                        eos autem sapiente temporibus</span>
+                    odit mollitia hic maxime earum quidem?
+                </p>
+                <a href="" class="btn btn-outline-dark">Mais informações <i
+                        class="bi bi-arrow-down-circle text-pink ms-1"></i></a>
+            </div>
+
+            <div class="col-md-6">
+                <img src="./images/chat-bot-animate.svg" alt="Imagem de um ChatBot" class="img-fluid">
+            </div>
+        </section>
+
+        <!-- tabela -->
+        <section>
+            <h2 class="my-4 text-blue">Confrontos</h2> <!--my: eixo y - -->
+            <table class="table table-bordered table-striped table-hover text-center"> <!--borda na tabela-->
+                <!--cabeçalho-->
+                <thead class="table-pimary">
+                    <tr> <!--linha-->
+                        <th>Robô</th> <!--coluna-->
+                        <th>Equipe</th>
+                        <th>Arma</th>
+                        <th>Sala</th>
+                        <th>Data da Luta</th>
+                        <th>Local</th>
+                    </tr>
+                </thead>
+
+                <!--corpo da tabela - dados-->
+                <tbody>
+                    <tr>
+                        <td>Pedrão</td>
+                        <td>HB20</td>
+                        <td>leque</td>
+                        <td>1SIX</td>
+                        <td>23/09/2023</td>
+                        <td class="table-dark">Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedrão</td>
+                        <td>HB20</td>
+                        <td>leque</td>
+                        <td>1SIX</td>
+                        <td>23/09/2023</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedrão</td>
+                        <td>HB20</td>
+                        <td>leque</td>
+                        <td>1SIX</td>
+                        <td>23/09/2023</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedrão</td>
+                        <td>HB20</td>
+                        <td>leque</td>
+                        <td>1SIX</td>
+                        <td>23/09/2023</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedrão</td>
+                        <td>HB20</td>
+                        <td>leque</td>
+                        <td>1SIX</td>
+                        <td>23/09/2023</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Acefalos</td>
+                        <td>Canetão</td>
+                        <td>Lança Chamas</td>
+                        <td>1SIY</td>
+                        <td>30/09/2023</td>
+                        <td>Lins</td>
+                    </tr>
+                </tbody>
+
+                <!-- Rodapé da tabela-->
+                <tfoot>
+                    <tr>
+                        <td>Dados atualizados: 18/08/2023</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+
+    <!-- Chamada JS CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

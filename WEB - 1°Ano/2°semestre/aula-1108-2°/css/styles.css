@@ -1,0 +1,20 @@
+:root{ /* variavel - cores */
+    --color-blue: #336699;
+    --color-pink: #DC143C;
+    --font-1: 'Roboto', sans-serif;
+    --margem: 20px;
+}
+
+body{
+    font-family: var(--font-1);
+
+}
+
+.text-blue{
+    color: var(--color-blue);
+}
+
+.text-pink{
+    color: var(--color-pink);
+    font-weight: 900;
+}
