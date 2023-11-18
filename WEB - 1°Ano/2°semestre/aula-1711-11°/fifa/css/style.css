@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(155deg,
+        hsl(295deg 100% 12%) 44%,
+        hsl(302deg 97% 15%) 80%,
+        hsl(308deg 94% 19%) 90%,
+        hsl(313deg 91% 23%) 95%,
+        hsl(317deg 88% 28%) 98%,
+        hsl(321deg 84% 33%) 100%,
+        hsl(325deg 81% 38%) 101%,
+        hsl(329deg 77% 44%) 101%,
+        hsl(332deg 74% 50%) 101%,
+        hsl(336deg 90% 56%) 100%);
+}
+
+.photo {
+    background-image: url(../images/fundos/7e575720bec4d5b2be8d984c1347b066.jpg);    
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    width: 70%;
+}
+
+.box-skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    margin: 10px 0;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info h5 {
+    background-color: rgb(100, 100, 235);
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+}
+
