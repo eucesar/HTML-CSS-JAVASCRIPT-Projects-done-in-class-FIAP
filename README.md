@@ -12,7 +12,7 @@
 ## Download
 
 ```sh
-https://github.com/eucesar/HTML-CSS-JAVASCRIPT-Projects-done-in-class-FIAP.git
+https://github.com/eucesar/HTML-CSS-JAVASCRIPT-Projects-done-in-class-SI-FIAP.git
 ```
 
 ## Cesar
